@@ -1,19 +1,39 @@
-export function text(user){
-	
-}
+export function typeText(formField){
 
-export function email(user){
 	
-}
+	return `
+		<label for=" ${formField.id} "> ${formField.label} </label>
+		<input type=" ${formField.type} " id=" ${formField.id} "> </input>	
 
-export function select(user){
-	
-}
+	`;
+};
 
-export function textarea(user){
-	
-}
 
-export function tele(user){
+export function typetextField(formField){
+	return `
+		<label for=" ${formField.id} "> ${formField.label} </label>
+		<textarea id= ${formField.id}>  </textarea>
+	`;
+};
+
+export function typeSelect(formField){
 	
-}
+	var langOpts = formField.options;
+
+	var langOptsHtml = langOpts.map(function(langOpt){
+		return `<option ${langOpt.value}> ${langOpt.label} </option>`;
+	});
+
+
+	return`
+		<label for=" ${formField.id} ">  ${formField.label} </label>
+		<select id="${formField.id}"> 
+		${langOptsHtml}
+		</select>
+
+	`;
+
+};
+
+
+

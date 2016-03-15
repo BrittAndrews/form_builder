@@ -1,52 +1,52 @@
 
-.app{
-	width: 600px;
-	height: 100%;
-	margin: auto;
-	margin-top:20px;
-	border: 1px solid gray;
-	box-sizing: border-box;
-	font-family: sans-serif;
-}
+	.app{
+		width: 600px;
+		height: 100%;
+		margin: auto;
+		margin-top:20px;
+		border: 1px solid gray;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
 
 
-header {
-	padding: 20px;
-	background-color: #428BAC;
-	width: auto;
-	height: 70px;
-	color: white;
-	font-size: 35px;
-	font-weight: light;
-}
+	header {
+		padding: 20px;
+		background-color: #428BAC;
+		width: auto;
+		height: 70px;
+		color: white;
+		font-size: 35px;
+		font-weight: light;
+	}
 
 
-main {
-	padding: 20px;
+	main {
+		padding: 20px;
 
-}
-
-
-input {
-	padding: 8px;
-	width:535px;
-
-}
+	}
 
 
-form select {
-	width:555px;
+	input {
+		padding: 8px;
+		width:535px;
 
-}
+	}
 
-textarea {
-	width:550px;
-	text-decoration: none;
-}
 
-footer{
-	padding: 20px;
-	background-color: #428BAC;
-	bottom:0;
+	form select {
+		width:555px;
 
-}
+	}
+
+	textarea {
+		width:550px;
+		text-decoration: none;
+	}
+
+	footer{
+		padding: 20px;
+		background-color: #428BAC;
+		bottom:0;
+
+	}
